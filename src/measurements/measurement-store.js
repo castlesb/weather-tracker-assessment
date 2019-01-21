@@ -27,6 +27,6 @@ export function fetch(timestamp) {
  */
 export function queryDateRange(from, to) {
   return store.filter(e => {
-     i 
+     if  
   });
 }
