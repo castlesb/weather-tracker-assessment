@@ -33,3 +33,5 @@ export function queryDateRange(from, to) {
  * Binary search to find element in array store.
  */
 function search(timestamp) {
+    
+}
