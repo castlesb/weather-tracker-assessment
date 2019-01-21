@@ -30,4 +30,4 @@ export function queryDateRange(from, to) {
 }
 
 /**
- * Binary searc
+ * Binary search to 
