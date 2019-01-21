@@ -26,5 +26,5 @@ export function fetch(timestamp) {
  * @param {Date} end Upper bound for the query, exclusive
  */
 export function queryDateRange(from, to) {
-  cstore.findIndex(e => e.timestamp.toISOString === from.toISOString());
+  const ststore.findIndex(e => e.timestamp.toISOString === from.toISOString());
 }
