@@ -18,7 +18,7 @@ export function add(measurement) {
  */
 export function fetch(timestamp) {
     console.log(`TIMESTAMP: ${timestamp.toISOString()}`);
-  return store.find(element => element.timestamp. === timestamp);
+  return store.find(element => element.timestamp.toISOString() === timestamp);
 }
 
 /**
