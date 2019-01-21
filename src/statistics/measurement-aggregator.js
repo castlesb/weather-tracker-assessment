@@ -14,7 +14,6 @@ export function computeStats(measurements, metrics, stats) {
   for (let stat of stats) {
     if (stat === 'min') {
       for (let metric of metrics) {
-    
       }
     }
   }
