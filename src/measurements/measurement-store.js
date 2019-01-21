@@ -1,7 +1,7 @@
 import { Measurement } from './measurement';
 import { HttpError } from '../errors';
 
-const store = new 
+const store = new Map
 
 /**
  * Add new measurement
