@@ -8,7 +8,7 @@ const store = [];
  * @param {Measurement} measurement to be added
  */
 export function add(measurement) {
-  store.push(measurement.timestamp, measurement);
+  store.push(measurement);
 }
 
 /**
