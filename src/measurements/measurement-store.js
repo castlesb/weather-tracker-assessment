@@ -29,9 +29,3 @@ export function queryDateRange(from, to) {
   throw new HttpError(501);
 }
 
-/**
- * Find the range of timestamps in store.
- */
-function isInRange(timestamp) {
-  if (timestamp)
-}
