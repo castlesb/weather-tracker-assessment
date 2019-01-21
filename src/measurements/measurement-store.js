@@ -17,7 +17,7 @@ export function add(measurement) {
  * @returns {Measurement} measurement for the particular date
  */
 export function fetch(timestamp) {
-    console.log(`TIMESTAMP: ${}`)
+    console.log(`TIMESTAMP: ${TIMESTAMP}`)
   return store.find(element => element.timestamp === timestamp);
 }
 
