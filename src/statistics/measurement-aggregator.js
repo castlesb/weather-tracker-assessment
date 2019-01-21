@@ -9,5 +9,5 @@ import { Measurement } from '../measurements/measurement';
  * @return {*}
  */
 export function computeStats(measurements, metrics, stats) {
-  for (let metric of me)
+  for (let metric of metrics)
 }
