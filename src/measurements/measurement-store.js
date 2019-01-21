@@ -30,7 +30,7 @@ export function queryDateRange(from, to) {
 }
 
 /**
- * Find the range of timestamps in a.
+ * Find the range of timestamps in store.
  */
 function search(timestamp) {
     
