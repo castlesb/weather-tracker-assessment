@@ -8,7 +8,7 @@ const store = new Map();
  * @param {Measurement} measurement to be added
  */
 export function add(measurement) {
-  store.set(measurement.timestamp, mea)
+  store.set(measurement.timestamp, measurement)
 }
 
 /**
