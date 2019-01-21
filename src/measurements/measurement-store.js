@@ -31,6 +31,8 @@ export function queryDateRange(from, to) {
   for (const i=start; i<store.length; i++) {
     if (store[i].timestamp.toISOString() === to.toISOString()) {
         return result;
-    } else 
+    } else {
+        resu
+    }
   }
 }
