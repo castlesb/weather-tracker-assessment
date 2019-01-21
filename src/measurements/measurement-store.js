@@ -33,5 +33,5 @@ export function queryDateRange(from, to) {
  * Find the range of timestamps in store.
  */
 function isInRange(timestamp) {
-  if (timestamp.to)
+  if (timestamp)
 }
