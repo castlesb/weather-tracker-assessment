@@ -30,4 +30,4 @@ export function queryDateRange(from, to) {
 }
 
 /**
- * Binary search to find element in array
+ * Binary search to find element in ArrayBuffer
