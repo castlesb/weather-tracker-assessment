@@ -29,7 +29,7 @@ export function queryDateRange(from, to) {
   const result = [];
   const start = store.findIndex(e => e.timestamp.toISOString() === from.toISOString());
 
-  for ( i=start; i<store.length; i++) {
+  for (let i=start; i<store.length; i++) {
     if (store[i].timestamp.toISOString() === to.toISOString()) {
         return result;
     } else {
