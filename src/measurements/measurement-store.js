@@ -30,4 +30,4 @@ export function queryDateRange(from, to) {
 }
 
 /**
- * Bina
+ * Binary sesa
