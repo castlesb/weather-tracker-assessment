@@ -30,4 +30,5 @@ export function queryDateRange(from, to) {
 }
 
 /**
- * Binary search to find element in array sto
+ * Binary search to find element in array store.
+ * 
