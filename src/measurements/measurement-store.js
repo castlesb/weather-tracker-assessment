@@ -1,7 +1,7 @@
 import { Measurement } from './measurement';
 import { HttpError } from '../errors';
 
-const st
+const store = 
 
 /**
  * Add new measurement
