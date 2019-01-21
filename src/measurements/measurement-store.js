@@ -26,5 +26,5 @@ export function fetch(timestamp) {
  * @param {Date} end Upper bound for the query, exclusive
  */
 export function queryDateRange(from, to) {
-  store.findIndex(e => e.timestamp)
+  store.findIndex(e => e.timestamp === )
 }
