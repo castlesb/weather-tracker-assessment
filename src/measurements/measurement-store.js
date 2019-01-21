@@ -32,6 +32,6 @@ export function queryDateRange(from, to) {
 /**
  * Find the range of timestamps in store.
  */
-function (timestamp) {
+function isInR(timestamp) {
     
 }
