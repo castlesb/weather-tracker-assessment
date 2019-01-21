@@ -9,5 +9,5 @@ import { Measurement } from '../measurements/measurement';
  * @return {*}
  */
 export function computeStats(measurements, metrics, stats) {
-  throw new HttpError(501);
+  
 }
