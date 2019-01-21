@@ -29,6 +29,6 @@ export function queryDateRange(from, to) {
   const start = store.findIndex(e => e.timestamp.toISOString === from.toISOString());
   
   for(let i=start; i<store.length; i++) {
-    if ()
+    if
   }
 }
