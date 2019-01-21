@@ -28,4 +28,3 @@ export function fetch(timestamp) {
 export function queryDateRange(from, to) {
   throw new HttpError(501);
 }
-
