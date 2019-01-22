@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   for (let metric of metrics) {
     for (let stat of stats) {
       if (stat === 'min') {
-        const arr = measurements.map()
+        const arr = measurements.map(m)
         const min = Math.min(...measurements.metric);
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
