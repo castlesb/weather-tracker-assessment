@@ -36,6 +36,6 @@ export function queryDateRange(from, to) {
         result.push(store[i]);
     }
   }
-  console.log(`D`)
+  console.log(`DATERAN`)
   return result;
 }
