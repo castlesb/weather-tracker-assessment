@@ -66,7 +66,7 @@ function binarySearch2(timestamp) {
     let mid = Math.floor((start + end) / 2);
 
     if (store[mid].timestamp.getTime() === timestamp.getTime()) {
-      return ;
+      return mid;
     } else if (store[mid].timestamp.getTime() < timestamp.getTime()) {
       start = mid + 1;
     } else {
