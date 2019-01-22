@@ -14,10 +14,10 @@ export function computeStats(measurements, metrics, stats) {
       const metricArray = measurements.map(m => m[metric]);
     for (let stat of stats) {
       if (stat === 'min') {
-        const min = Math.min(...);
+        const min = Math.min(...metricArray);
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
-        const max = Math.max(...measurements[metric]);
+        const max = Math.max(...);
         result.push({metric, stat: 'max', value: max});
       }
     }
