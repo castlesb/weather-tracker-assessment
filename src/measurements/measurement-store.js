@@ -1,7 +1,7 @@
 import { Measurement } from './measurement';
 import { HttpError } from '../errors';
 
-// Array to store meas
+// Array to store measurements
 const store = [];
 
 /**
