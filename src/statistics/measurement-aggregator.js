@@ -9,7 +9,7 @@ import { Measurement } from '../measurements/measurement';
  * @return {*}
  */
  
-
+/*
 export function computeStats(measurements, metrics, stats) {
   const result = [];
   console.log(`MEASUREMENTS ARRAY: ${JSON.stringify(measurements)}`);
