@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   for (measurement of measurements) {
     for (metric of metrics) {
         if (measurement.hasOwnProperty(metric)) {
-            
+    
         }
     }
   }
