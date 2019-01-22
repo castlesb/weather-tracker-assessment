@@ -15,7 +15,10 @@ export function computeStats(measurements, metrics, stats) {
       if (stat === 'min') {
         const min = Math.min(...measurements.metric);
         result.push({metric, stat: 'min', value: min});
-      } else if 
+      } else if (stat === 'min') {
+        const min = Math.min(...measurements.metric);
+        result.push({metric, stat: 'min', value: min});
+      }
     }
   }
 }
