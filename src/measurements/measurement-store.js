@@ -41,4 +41,4 @@ export function queryDateRange(from, to) {
   return result;
 }
 
-f
+function b
