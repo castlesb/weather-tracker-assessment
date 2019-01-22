@@ -22,6 +22,6 @@ export function computeStats(measurements, metrics, stats) {
     }
   }
 
-  console.log(`RESU`)
+  console.log(`RESULT: `)
   return result;
 }
