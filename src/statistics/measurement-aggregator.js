@@ -10,7 +10,7 @@ import { Measurement } from '../measurements/measurement';
  */
 export function computeStats(measurements, metrics, stats) {
   const result = [];
-  for (m)
+  for (measurement)
 }
 
 /*
