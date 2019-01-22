@@ -47,7 +47,6 @@ function binarySearch(timestamp) {
   
   while (start<=end){ 
   
-        // Find the mid index 
         let mid=Math.floor((start + end)/2); 
    
         // If element is present at mid, return True 
