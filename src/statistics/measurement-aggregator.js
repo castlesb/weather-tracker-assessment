@@ -9,7 +9,7 @@ import { Measurement } from '../measurements/measurement';
  * @return {*}
  */
 export function computeStats(measurements, metrics, stats) {
-  let min = 0;
+  let min = ;
   let max = 0;
   let avg = 0;
 
