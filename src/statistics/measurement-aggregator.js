@@ -20,7 +20,7 @@ export function computeStats(measurements, metrics, stats) {
         const max = Math.max(...metricArray);
         result.push({metric, stat: 'max', value: max});
       } else {
-        sum = metricA
+        sum = metricArray
       }
     }
   }
