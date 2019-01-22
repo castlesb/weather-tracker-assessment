@@ -47,7 +47,7 @@ function binarySearch(timestamp) {
 
   while (start <= end) { 
     let mid = Math.floor((start + end) / 2); 
-   
+  
       if (arr[mid] === timestamp) return true; 
         else if (arr[mid] < x)  
           start = mid + 1; 
