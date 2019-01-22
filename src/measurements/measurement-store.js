@@ -1,7 +1,7 @@
 import { Measurement } from './measurement';
 import { HttpError } from '../errors';
 
-// Array representing th
+// Array representing the measur
 const store = [];
 
 /**
