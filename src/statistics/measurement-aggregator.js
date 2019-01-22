@@ -10,7 +10,7 @@ import { Measurement } from '../measurements/measurement';
  */
 export function computeStats(measurements, metrics, stats) {
   let min = 0;
-  le
+  let max 
   for (let m of measurements) {
     
   }
