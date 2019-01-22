@@ -8,7 +8,8 @@ import { Measurement } from '../measurements/measurement';
  * @param {String[]} stats
  * @return {*}
  */
-
+ 
+ 
 export function computeStats(measurements, metrics, stats) {
   const result = [];
   console.log(`MEASUREMENTS ARRAY: ${JSON.stringify(measurements)}`);
