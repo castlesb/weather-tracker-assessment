@@ -33,6 +33,7 @@ export function computeStats(measurements, metrics, stats) {
   return result;
 }
 
+
 function arrayMin(arr) {
   return arr.reduce(function (a, b) {
     return (a < b ? a : b);
