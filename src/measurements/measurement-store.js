@@ -53,7 +53,7 @@ function binarySearch(timestamp) {
           start = mid + 1;
         else
           end = mid - 1;
-      }
+     }
    
   return false;
 }
