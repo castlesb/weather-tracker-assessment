@@ -16,8 +16,9 @@ export function computeStats(measurements, metrics, stats) {
     for (let stat of stats) {
       if (stat === 'min') {
         const min = metricArray.reduce((a, b) => (a < b ? a : b));
-        result.push({metric, stat: 'min', value: });
+        result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
+
         result.push({metric, stat: 'max', value: arrayMax(metricArray)});
       } else {
         const average = metricArray.reduce((a, b) => a + b) / metricArray.length;
