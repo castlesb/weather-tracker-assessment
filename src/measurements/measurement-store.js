@@ -53,7 +53,7 @@ function binarySearch(timestamp) {
     } else if (store[mid] < x) {
       start = mid + 1;
     }
-    else
+else
       end = mid - 1;
   }
    
