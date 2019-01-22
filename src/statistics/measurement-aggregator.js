@@ -11,6 +11,7 @@ import { Measurement } from '../measurements/measurement';
 export function computeStats(measurements, metrics, stats) {
   const result = [];
   for (let metric of metrics) {
+
     for (let stat of stats) {
       if (stat === 'min') {
         result.push({metric, stat: 'min', value: arrayMin(metricArray)});
