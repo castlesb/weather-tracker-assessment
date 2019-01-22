@@ -51,7 +51,7 @@ function binarySearch(timestamp) {
     if (arr[mid] === timestamp) return true;
     else if (arr[mid] < x)
       start = mid + 1;
-        else
+    else
           end = mid - 1;
     }
    
