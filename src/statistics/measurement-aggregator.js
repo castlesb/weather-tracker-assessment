@@ -9,9 +9,7 @@ import { Measurement } from '../measurements/measurement';
  * @return {*}
  */
 export function computeStats(measurements, metrics, stats) {
-  for (let m of measurements) {
-    
-  }
+
 /*
   for (let stat of stats) {
     if (stat === 'min') {
