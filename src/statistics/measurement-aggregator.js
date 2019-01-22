@@ -20,5 +20,5 @@ export function computeStats(measurements, metrics, stats) {
         result.push({metric, stat: 'max', value: max});
       }
     }
-  }
+  } 
 }
