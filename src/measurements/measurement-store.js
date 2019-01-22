@@ -49,7 +49,7 @@ function binarySearch(timestamp) {
   
     let mid=Math.floor((start + end)/2); 
    
-    if (arr[mid]===x) return true; 
+      if (arr[mid]===x) return true; 
   
         // Else look in left or right half accordingly 
         else if (arr[mid] < x)  
