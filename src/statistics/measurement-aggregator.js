@@ -14,7 +14,7 @@ export function computeStats(measurements, metrics, stats) {
   console.log(`MEASUREMENTS[0] data: ${JSON.stringify(measurements[0].metrics)}`);
   console.log(`MEASUREMENTS[0] temp: ${JSON.stringify(measurements[0].getMetric('temperature'))}`);
   for (let metric of metrics) {
-      const metricArray = measurements.map(m => m.getMetric);
+      const metricArray = measurements.map(m => m.getMetric(me));
       console.log(`METRIC ARRAY: ${JSON.stringify(metricArray)}`);
     for (let stat of stats) {
       if (stat === 'min') {
