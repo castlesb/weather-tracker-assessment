@@ -10,7 +10,7 @@ import { Measurement } from '../measurements/measurement';
  */
 export function computeStats(measurements, metrics, stats) {
   const result = [];
-  console.log(` ARRAY: ${JSON.stringify(measurements)}`);
+  console.log(`MEASUREMEN ARRAY: ${JSON.stringify(measurements)}`);
   for (let metric of metrics) {
       const metricArray = measurements.map(m => m[metric]);
       console.log(`METRIC ARRAY: ${JSON.stringify(measurements)}`);
