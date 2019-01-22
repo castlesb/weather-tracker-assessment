@@ -23,7 +23,7 @@ export function computeStats(measurements, metrics, stats) {
       } else {
         const sum = metricArray.reduce((acc, val) => acc + val, 0);
         const average = (metricArray) => metricArray.reduce((a, b) => a + b) / metricArray.length;
-        result.push({metric, stat: 'average', value: sum / metricArray.length});
+        result.push({metric, stat: 'average', value: });
       }
     }
   }
