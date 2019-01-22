@@ -14,7 +14,7 @@ export function computeStats(measurements, metrics, stats) {
   let avg = 0;
 
   for (let m of measurements) {
-    
+    m
   }
 /*
   for (let stat of stats) {
