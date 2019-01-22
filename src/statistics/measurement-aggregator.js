@@ -16,7 +16,7 @@ export function computeStats(measurements, metrics, stats) {
         const min = Math.min(...measurements.metric);
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
-        const min = Math.min(...measurements.metric);
+        const min = Math.(...measurements.metric);
         result.push({metric, stat: 'min', value: min});
       }
     }
