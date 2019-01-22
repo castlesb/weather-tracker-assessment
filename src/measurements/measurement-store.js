@@ -58,7 +58,7 @@ function binarySearch(timestamp) {
   }
 }
 
-function binarySearch(timestamp) {
+function binarySearch2(timestamp) {
   let start = 0;
   let end = store.length - 1;
 
