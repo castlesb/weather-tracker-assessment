@@ -50,7 +50,7 @@ function binarySearch(timestamp) {
 
     if (store[mid].timestamp.getTime() === timestamp.getTime()) {
       return store[mid];
-    } else if ( < x) {
+    } else if (store[mid].timestamp.getTime() < ) {
       start = mid + 1;
     } else {
       end = mid - 1;
