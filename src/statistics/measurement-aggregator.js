@@ -17,7 +17,7 @@ export function computeStats(measurements, metrics, stats) {
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
         const max = Math.max(...measurements.metric);
-        result.push({metric, stat: 'max', value: min});
+        result.push({metric, stat: 'max', value: max});
       }
     }
   }
