@@ -12,7 +12,7 @@ export function computeStats(measurements, metrics, stats) {
   const result = [];
   console.log(`MEASUREMENTS ARRAY: ${JSON.stringify(measurements)}`);
   console.log(`MEASUREMENTS[0] data: ${JSON.stringify(measurements[0].metrics)}`);
-  console.log(`MEASUREMENTS[0] temp: ${JSON.stringify(measurements[0].metrics)}`);
+  console.log(`MEASUREMENTS[0] temp: ${JSON.stringify(measurements[0].metrics[0])}`);
   for (let metric of metrics) {
       const metricArray = measurements.map(m => m[metric]);
       console.log(`METRIC ARRAY: ${JSON.stringify(metricArray)}`);
