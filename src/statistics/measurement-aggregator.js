@@ -15,7 +15,7 @@ export function computeStats(measurements, metrics, stats) {
 
   for (let measurement of measurements) {
     for (let metric of metrics) {
-        measurement.met
+        measurement.metric
     }
   }
 /*
