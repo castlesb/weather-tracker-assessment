@@ -20,7 +20,7 @@ export function add(measurement) {
 export function fetch(timestamp) {
   console.log('TIME: ' + timestamp.getTime());
   // return store.find(e => e.timestamp.toISOString() === timestamp.toISOString());
-  return store.find(e => e.timestamp.() === timestamp.toISOString());
+  return store.find(e => e.timestamp.getTime() === timestamp.toISOString());
 }
 
 /**
