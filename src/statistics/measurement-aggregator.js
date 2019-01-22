@@ -11,7 +11,8 @@ import { Measurement } from '../measurements/measurement';
 export function computeStats(measurements, metrics, stats) {
   const result = [];
   for (let metric of metrics) {
-
+      const metricArray = measurements.map(m => m[metric]);
+      console.log(`METRIC ARRAY: ${JSON.stringify()}`);
     for (let stat of stats) {
       if (stat === 'min') {
         result.push({metric, stat: 'min', value: arrayMin(metricArray)});
