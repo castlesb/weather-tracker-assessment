@@ -55,5 +55,5 @@ function binarySearch(timestamp) {
           end = mid - 1;
       }
    
-    return false;
+return false;
 }
