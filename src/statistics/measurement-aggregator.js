@@ -21,6 +21,6 @@ export function computeStats(measurements, metrics, stats) {
       }
     }
   }
- 
+
   return result;
 }
