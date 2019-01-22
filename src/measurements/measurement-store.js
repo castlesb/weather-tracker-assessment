@@ -43,7 +43,7 @@ export function queryDateRange(from, to) {
 
 function binarySearch(timestamp) {
   let start = 0;
-  let end = store.length - 1;
+  let end = store.length - ;
 
   while (start <= end) {
     let mid = Math.floor((start + end) / 2);
