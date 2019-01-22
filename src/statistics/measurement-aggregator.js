@@ -22,6 +22,6 @@ export function computeStats(measurements, metrics, stats) {
     }
   }
 
-  console.log(`RESULT: ${J}`)
+  console.log(`RESULT: ${JSON.str}`)
   return result;
 }
