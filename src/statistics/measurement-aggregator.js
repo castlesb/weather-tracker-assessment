@@ -12,7 +12,6 @@ export function computeStats(measurements, metrics, stats) {
   const result = [];
   for (let metric of metrics) {
       const metricArray = measurements.filter(m => m.getMetric(metric) != null).map(m => m.getMetric(metric));
-      console.log(`METRIC ARRAY: ${JSON.stringify(metricArray)}`);
       if (metricArray.length === 0) return result;
     for (let stat of stats) {
       if (stat === 'min') {
