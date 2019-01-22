@@ -12,7 +12,7 @@ export function computeStats(measurements, metrics, stats) {
   const result = [];
   for (measurement of measurements) {
     for (metric of metrics) {
-        if measurement.hasOwnPropert
+        if measurement.hasOwnProperty
     }
   }
 }
