@@ -36,6 +36,6 @@ export function queryDateRange(from, to) {
         result.push(store[i]);
     }
   }
-  console.log(`DATERANGE: `)
+  console.log(`DATERANGE: ${}`)
   return result;
 }
