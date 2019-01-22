@@ -36,6 +36,6 @@ export function queryDateRange(from, to) {
         result.push(store[i]);
     }
   }
-  console.log(`DATERANGE: ${JSON.stringify()}`)
+  console.log(`DATERANGE: ${JSON.stringify(result)}`)
   return result;
 }
