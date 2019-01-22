@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   for (let metric of metrics) {
     for (let stat of stats) {
       if (stat === 'min') {
-        resultMath.min(...measurements.metric);
+        result.pushMath.min(...measurements.metric);
       }
     }
   }
