@@ -51,7 +51,6 @@ function binarySearch(timestamp) {
    
       if (arr[mid]===x) return true; 
   
-        // Else look in left or right half accordingly 
         else if (arr[mid] < x)  
              start = mid + 1; 
         else
