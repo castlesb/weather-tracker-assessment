@@ -18,6 +18,7 @@ export function add(measurement) {
  * @returns {Measurement} measurement for the particular date
  */
 export function fetch(timestamp) {
+
   return store.find(e => e.timestamp.toISOString() === timestamp.toISOString());
 }
 
