@@ -45,10 +45,10 @@ function binarySearch(timestamp) {
   let start = 0;
   let end = arr.length-1;
   
-  while (start<=end){ 
+  while (star t<=end){ 
     let mid=Math.floor((start + end)/2); 
    
-      if (arr[mid] === ) return true; 
+      if (arr[mid] === timestamp) return true; 
         else if (arr[mid] < x)  
           start = mid + 1; 
         else
