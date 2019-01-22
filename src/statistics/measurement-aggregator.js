@@ -22,6 +22,7 @@ export function computeStats(measurements, metrics, stats) {
         result.push({metric, stat: 'max', value: arrayMax(metricArray)});
       } else {
         const sum = metricArray.reduce((acc, val) => acc + val, 0);
+        
         result.push({metric, stat: 'average', value: sum / metricArray.length});
       }
     }
