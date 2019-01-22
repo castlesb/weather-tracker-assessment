@@ -11,5 +11,5 @@ import { Measurement } from '../measurements/measurement';
 export function computeStats(measurements, metrics, stats) {
   for (let metric of metrics) {
         
-}
+  }
 }
