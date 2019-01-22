@@ -41,4 +41,6 @@ export function queryDateRange(from, to) {
   return result;
 }
 
-function binarySearch(timestamp)
+function binarySearch(timestamp) {
+    
+}
