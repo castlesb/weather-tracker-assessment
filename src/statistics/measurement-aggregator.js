@@ -13,7 +13,17 @@ export function computeStats(measurements, metrics, stats) {
   for (measurement of measurements) {
     for (metric of metrics) {
       if (measurement.hasOwnProperty(metric)) {
-        
+        for (let stat of stats) {
+      if (stat === 'min') {
+        result.push({metric, stat: 'min', value: arrayMin(metricArray)});
+      } else if (stat === 'max') {
+        const max = Math.max(...metricArray);
+        result.push({metric, stat: 'max', value: max});
+      } else {
+        const sum = metricArray.reduce((acc, val) => acc + val, 0);
+        result.push({metric, stat: 'average', value: sum / metricArray.length});
+      }
+    }
       }
     }
   }
