@@ -22,6 +22,6 @@ export function computeStats(measurements, metrics, stats) {
     }
   }
 
-  con
+  console
   return result;
 }
