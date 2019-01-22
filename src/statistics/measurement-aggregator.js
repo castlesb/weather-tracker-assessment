@@ -36,5 +36,5 @@ function arrayMin(arr) {
 }
 
 function arrayMax(arr) {
-  return 
+  return a.reduce((a, b) => (a > b ? a : b));
 }
