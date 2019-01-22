@@ -14,7 +14,7 @@ export function computeStats(measurements, metrics, stats) {
     for (let stat of stats) {
       if (stat === 'min') {
         const min = Math.min(...measurements.metric);
-        result.p
+        result.push()
       }
     }
   }
