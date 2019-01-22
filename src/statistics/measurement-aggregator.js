@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   for (let metric of metrics) {
     for (let stat of stats) {
       if (stat === 'min') {
-        coMath.min(...measurements.metric);
+        const min =Math.min(...measurements.metric);
       }
     }
   }
