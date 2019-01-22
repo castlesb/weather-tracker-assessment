@@ -14,7 +14,7 @@ export function computeStats(measurements, metrics, stats) {
     for (metric of metrics) {
       if (measurement.hasOwnProperty(metric)) {
       
-    }
+      }
     }
   }
 }
