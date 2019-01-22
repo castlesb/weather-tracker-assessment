@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   console.log(`MEASUREMENTS ARRAY: ${JSON.stringify(measurements)}`);
   for (let metric of metrics) {
       const metricArray = measurements.map(m => m[metric]);
-      console.log(`METRIC ARRAY: ${JSON.stringify(measurements)}`);
+      console.log(`METRIC ARRAY: ${JSON.stringify()}`);
     for (let stat of stats) {
       if (stat === 'min') {
         result.push({metric, stat: 'min', value: arrayMin(metricArray)});
