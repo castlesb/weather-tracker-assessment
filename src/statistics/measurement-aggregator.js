@@ -13,7 +13,7 @@ export function computeStats(measurements, metrics, stats) {
   let max = 0;
   let avg = 0;
 
-  for (let  of measurements) {
+  for (let measurement of measurements) {
     for ()
   }
 /*
