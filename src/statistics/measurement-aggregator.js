@@ -14,7 +14,7 @@ export function computeStats(measurements, metrics, stats) {
     for (let stat of stats) {
       if (stat === 'min') {
         // const arr = measurements.map(m => )
-        const min = Math.min(...measurements.metric);
+        const min = Math.min(...measurements);
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
         const max = Math.max(...measurements.metric);
