@@ -19,7 +19,7 @@ export function computeStats(measurements, metrics, stats) {
         result.push({metric, stat: 'min', value: min});
       } else if (stat === 'max') {
         const max = metricArray.reduce((a, b) => (a > b ? a : b));
-        result.push({metric, stat: 'max', value: });
+        result.push({metric, stat: 'max', value: max});
       } else {
         const average = metricArray.reduce((a, b) => a + b) / metricArray.length;
         result.push({metric, stat: 'average', value: Math.round(average * 10) / 10});
