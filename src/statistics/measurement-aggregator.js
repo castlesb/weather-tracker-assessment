@@ -22,5 +22,5 @@ export function computeStats(measurements, metrics, stats) {
     }
   }
   
-  return resu
+  return result;
 }
