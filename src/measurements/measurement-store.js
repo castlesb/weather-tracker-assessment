@@ -36,7 +36,7 @@ export function queryDateRange(from, to) {
   let i = start;
   
   // while (store[i].timestamp.toISOString() !== to.toISOString()) {
-  while (store[i].timestamp.toISOString() !== to) {
+  while (store[i].timestamp.toISOString() !== to.toISOString()) {
     result.push(store[i]);
     i++;
   }
