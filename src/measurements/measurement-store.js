@@ -43,22 +43,7 @@ export function queryDateRange(from, to) {
   return result;
 }
 
-function binarySearch(timestamp) {
-  let start = 0;
-  let end = store.length - 1;
 
-  while (start <= end) {
-    let mid = Math.floor((start + end) / 2);
-
-    if (store[mid].timestamp.getTime() === timestamp.getTime()) {
-      return store[mid];
-    } else if (store[mid].timestamp.getTime() < timestamp.getTime()) {
-      start = mid + 1;
-    } else {
-      end = mid - 1;
-    }
-  }
-}
 
 function binarySearch(timestamp) {
   let start = 0;
