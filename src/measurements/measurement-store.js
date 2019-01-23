@@ -21,6 +21,7 @@ export function fetch(timestamp) {
   console.log('TIME: ' + timestamp.getTime());
   // return store.find(e => e.timestamp.toISOString() === timestamp.toISOString());
   const index = binarySearch2(timestamp);
+  
 }
 
 /**
