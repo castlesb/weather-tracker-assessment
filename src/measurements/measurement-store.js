@@ -21,7 +21,7 @@ export function fetch(timestamp) {
   console.log('TIME: ' + timestamp.getTime());
   // return store.find(e => e.timestamp.toISOString() === timestamp.toISOString());
   const index = binarySearch2(timestamp);
-  return store[index]
+  return store[index];
 }
 
 /**
@@ -60,7 +60,7 @@ function binarySearch(timestamp) {
   }
 }
 
-function binarySearch2(timestamp) {
+function binarySearch(timestamp) {
   let start = 0;
   let end = store.length - 1;
 
