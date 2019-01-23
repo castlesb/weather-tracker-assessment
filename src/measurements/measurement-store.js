@@ -18,7 +18,6 @@ export function add(measurement) {
  * @returns {Measurement} measurement for the particular date
  */
 export function fetch(timestamp) {
-  console.log('TIME: ' + timestamp.getTime());
   // return store.find(e => e.timestamp.toISOString() === timestamp.toISOString());
   const index = binarySearch(timestamp);
   return store[index];
