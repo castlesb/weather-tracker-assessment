@@ -10,7 +10,7 @@ const store = [];
  */
 export function add(measurement) {
   measurement.timestamp = measurement.timestamp.getTime();
-  console.log('timestamp:' )
+  console.log('timestamp:' + measurement)
   store.push(measurement);
 }
 
