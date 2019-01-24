@@ -41,6 +41,7 @@ export function queryDateRange(from, to) {
     if (store[i].timestamp.getTime() === to.getTime()) {
       break;
     }
+    result.push(store[i]);
   }
 
   return result;
