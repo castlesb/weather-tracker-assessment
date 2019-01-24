@@ -35,7 +35,7 @@ export function queryDateRange(from, to) {
   const start = binarySearch(from);
   // let i = start;
   
-  for ()
+  for (l)
   
   while (store[i].timestamp.toISOString() !== to.toISOString()) {
     result.push(store[i]);
