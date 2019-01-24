@@ -81,7 +81,7 @@ Feature: Get measurement statistics
       | "dewPoint"    | "max"     | 17.3  |
       | "dewPoint"    | "average" | 17.1  |
 
-  Scenario: Cannot get stats with inv
+  Scenario: Cannot get stats with invalid dates
     # POST /measurements
     When I submit a new measurement as follows:
       | timestamp                  | temperature    | dewPoint | precipitation |
