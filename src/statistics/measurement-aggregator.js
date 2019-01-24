@@ -10,8 +10,6 @@ import { Measurement } from '../measurements/measurement';
  */
 export function computeStats(measurements, metrics, stats) {
   const result = [];
-  
-  
 
   for (let metric of metrics) {
       const metricArray = measurements.filter(m => m.getMetric(metric) != null).map(m => m.getMetric(metric));
