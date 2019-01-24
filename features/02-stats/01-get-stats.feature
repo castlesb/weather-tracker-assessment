@@ -110,4 +110,4 @@ Feature: Get measurement statistics
       | metric        | stat      | value |
       | "temperature" | "min"     | 27.1  |
       | "temperature" | "max"     | 28.1  |
-      | "temperature" | "average" | 27.3  |
+      | "temperature" | "average" | 27.  |
