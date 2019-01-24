@@ -95,7 +95,7 @@ Feature: Get measurement statistics
     Then the response has a status code of 400
     
   @new
-  Scenario: Get stats for a well-reported metric
+  Scenario: Get stats 
     # GET /stats?<params...>
     When I get stats with parameters:
       | param        | value                    |
