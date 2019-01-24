@@ -82,7 +82,7 @@ Feature: Get measurement statistics
       | "dewPoint"    | "average" | 17.1  |
 
   @new
-  Scenario: et stats with invalid dates
+  Scenario: Get stats with invalid dates
     # GET /stats?<params...>
     When I get stats with parameters:
       | param        | value                    |
@@ -92,7 +92,7 @@ Feature: Get measurement statistics
       | metric       | temperature              |
       | fromDateTime | 2015-09-01T17:00:00.000Z |
       | toDateTime   | 2015-09-01T16:00:00.000Z |
-    Then the response has a status code of 400
+    Then the response has a status code of 40
     
   @new
   Scenario: Get stats with a to date that has not been recorded yet
