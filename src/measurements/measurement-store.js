@@ -31,7 +31,7 @@ export function fetch(timestamp) {
 export function queryDateRange(from, to) {
   const result = [];
   
-  if ()
+  if (from )
   // const start = store.findIndex(e => e.timestamp.toISOString() === from.toISOString());
   const start = binarySearch(from);
   let i = start;
