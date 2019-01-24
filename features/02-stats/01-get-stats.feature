@@ -89,6 +89,6 @@ Feature: Get measurement statistics
       | stat         | max                      |
       | stat         | average                  |
       | metric       | temperature              |
-      | fromDateTime | 2015-09-01T1:00:00.000Z |
+      | fromDateTime | 2015-09-01T17:00:00.000Z |
       | toDateTime   | 2015-09-01T17:00:00.000Z |
     Then the response has a status code of 400
