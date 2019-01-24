@@ -44,7 +44,7 @@ export function queryDateRange(from, to) {
   return result;
 }
 
-// Search for the timestamp
+// Search for the timestamp in th
 function binarySearch(timestamp) {
   let start = 0;
   let end = store.length - 1;
