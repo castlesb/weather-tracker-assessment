@@ -31,7 +31,7 @@ export function fetch(timestamp) {
 export function queryDateRange(from, to) {
   const result = [];
 
-  /if (from.getTime() > to.getTime()) throw new HttpError(400);
+  // if (from.getTime() > to.getTime()) throw new HttpError(400);
 
   // const start = store.findIndex(e => e.timestamp.getTime() === from.getTime());
   const start = binarySearch(from);
