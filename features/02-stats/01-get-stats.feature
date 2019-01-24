@@ -82,7 +82,7 @@ Feature: Get measurement statistics
       | "dewPoint"    | "average" | 17.1  |
 
   @new
-  Scenario: Get stats with invalid dates
+  Scenario:  stats with invalid dates
     # GET /stats?<params...>
     When I get stats with parameters:
       | param        | value                    |
