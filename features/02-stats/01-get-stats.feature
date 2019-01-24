@@ -95,7 +95,7 @@ Feature: Get measurement statistics
     Then the response has a status code of 400
     
   @new
-  Scenario: Get stats with a date that has not happened
+  Scenario: Get stats with a tdate that has not happened
     # GET /stats?<params...>
     When I get stats with parameters:
       | param        | value                    |
