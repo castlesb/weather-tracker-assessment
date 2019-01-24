@@ -25,4 +25,3 @@ function asArray(val) {
 
   return Array.isArray(val) ? val : [val];
 }
-
