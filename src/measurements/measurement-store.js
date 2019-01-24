@@ -42,7 +42,7 @@ export function queryDateRange(from, to) {
       result.push(store[i]);
     }
   }
-  
+  /
   while (store[i].timestamp.toISOString() !== to.toISOString()) {
     result.push(store[i]);
     i++;
