@@ -81,4 +81,3 @@ Feature: Get measurement statistics
       | "dewPoint"    | "max"     | 17.3  |
       | "dewPoint"    | "average" | 17.1  |
 
-    
