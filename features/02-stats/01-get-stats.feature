@@ -92,7 +92,7 @@ Feature: Get measurement statistics
       | metric       | temperature              |
       | fromDateTime | 2015-09-01T17:00:00.000Z |
       | toDateTime   | 2015-09-01T16:00:00.000Z |
-    Then the response has a status code of 40
+    Then the response has a status code of 400
     
   @new
   Scenario: Get stats with a to date that has not been recorded yet
