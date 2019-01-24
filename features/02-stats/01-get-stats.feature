@@ -83,7 +83,5 @@ Feature: Get measurement statistics
 
   Scenario: Cannot get stats with invalid dates
     # POST /measurements
-    When I submit a new measurement as follows:
-      | timestamp                  | temperature    | dewPoint | precipitation |
-      | "2015-09-01T16:00:00.000Z" | "not a number" | 16.7     | 0             |
+    
     Then the response has a status code of 400
