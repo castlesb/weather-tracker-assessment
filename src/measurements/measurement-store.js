@@ -45,7 +45,7 @@ export function queryDateRange(from, to) {
 }
 
 // Search for the timestamp in the store using binary search and return the index.
-// Useful for a store with hundreds 
+// Useful for a store with hundreds of entri
 function binarySearch(timestamp) {
   let start = 0;
   let end = store.length - 1;
