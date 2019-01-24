@@ -14,7 +14,8 @@ router.get('/', (req, res) => {
 
   const fromDateTime = new Date(req.query.fromDateTime);
   const toDateTime = new Date(req.query.toDateTime);
-
+  
+  if 
 
   const measurements = queryDateRange(fromDateTime, toDateTime);
 
