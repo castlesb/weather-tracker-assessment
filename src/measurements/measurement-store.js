@@ -32,7 +32,7 @@ export function queryDateRange(from, to) {
   const result = [];
   
   if (from > to) {
-    return new HttpError()
+    return new HttpError(4)
   }
 
   // const start = store.findIndex(e => e.timestamp.toISOString() === from.toISOString());
