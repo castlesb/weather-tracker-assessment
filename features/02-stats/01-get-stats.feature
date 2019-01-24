@@ -109,5 +109,5 @@ Feature: Get measurement statistics
     And the response body is an array of:
       | metric        | stat      | value |
       | "temperature" | "min"     | 27.1  |
-      | "temperature" | "max"     |   |
+      | "temperature" | "max"     | 28.1  |
       | "temperature" | "average" | 27.3  |
