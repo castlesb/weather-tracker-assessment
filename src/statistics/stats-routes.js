@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
   const fromDateTime = new Date(req.query.fromDateTime);
   const toDateTime = new Date(req.query.toDateTime);
   
-  if (fromDateTime.getTime() > toDateTime.getTime()) throw new E
+  if (fromDateTime.getTime() > toDateTime.getTime()) throw new Error
 
   const measurements = queryDateRange(fromDateTime, toDateTime);
 
