@@ -33,7 +33,7 @@ export function queryDateRange(from, to) {
   
   if (from.getTime() > to.getTime()) throw new HttpError(400);
 
-  // const start = store.findIndex(e => e.timestamp.toISOString() === from.toISOString());
+  // const start = store.findIndex(e => e.timestamp. === from.toISOString());
   const start = binarySearch(from);
 
   for (let i = start; i < store.length; i++) {
