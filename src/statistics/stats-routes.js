@@ -26,7 +26,7 @@ function asArray(val) {
   return Array.isArray(val) ? val : [val];
 }
 
-function parseI({ timestamp, ...metrics }) {
+function parseIn({ timestamp, ...metrics }) {
   const measurement = new Measurement();
   measurement.timestamp = new Date(timestamp);
 
